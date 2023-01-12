@@ -12,7 +12,7 @@
 #define ASIO_HPP
 
 #if defined(_MSC_VER) && (_MSC_VER >= 1200)
-# pragma once
+#pragma once
 #endif // defined(_MSC_VER) && (_MSC_VER >= 1200)
 
 #include "asio/append.hpp"
@@ -31,7 +31,7 @@
 #include "asio/basic_raw_socket.hpp"
 #include "asio/basic_readable_pipe.hpp"
 #include "asio/basic_seq_packet_socket.hpp"
-#include "asio/basic_serial_port.hpp"
+// #include "asio/basic_serial_port.hpp"
 #include "asio/basic_signal_set.hpp"
 #include "asio/basic_socket.hpp"
 #include "asio/basic_socket_acceptor.hpp"
@@ -170,8 +170,8 @@
 #include "asio/registered_buffer.hpp"
 #include "asio/require.hpp"
 #include "asio/require_concept.hpp"
-#include "asio/serial_port.hpp"
-#include "asio/serial_port_base.hpp"
+// #include "asio/serial_port.hpp"
+// #include "asio/serial_port_base.hpp"
 #include "asio/signal_set.hpp"
 #include "asio/socket_base.hpp"
 #include "asio/static_thread_pool.hpp"
